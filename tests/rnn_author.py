@@ -1,6 +1,6 @@
 test = {   'name': 'rnn_author',
     'points': 1,
-    'suites': [   {   'cases': [{'code': ">>> (log_posterior_madison_rnn<0) and (log_posterior_hamilton_rnn<0) and (author_rnn in ['Hamilton', 'Madison'])\nTrue", 'hidden': False, 'locked': False}],
+    'suites': [   {   'cases': [{'code': ">>> (ffnn_classify(testing[0]['tokens']) == author_ffnn) and (rnn_classify(testing[0]['tokens']) == author_rnn)\nTrue", 'hidden': False, 'locked': False}],
                       'scored': True,
                       'setup': '',
                       'teardown': '',
