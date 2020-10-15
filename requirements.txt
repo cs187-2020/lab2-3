@@ -1,3 +1,4 @@
 otter-grader == 1.0.0
 torchtext == 0.7
 torch
+sentencepiece==0.1.92
